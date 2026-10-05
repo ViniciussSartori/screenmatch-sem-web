@@ -5,6 +5,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 @SpringBootApplication
 public class ScreenmatchApplication implements CommandLineRunner {
@@ -18,6 +21,8 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 		Principal principal = new Principal();
 		principal.exibeMenu();
+
+
 
 	}
 }
